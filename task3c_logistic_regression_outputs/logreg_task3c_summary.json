@@ -1,0 +1,132 @@
+{
+    "task": "Task 3C - Logistic Regression inhibition type classification",
+    "unknown_removed": true,
+    "rows_used": 220,
+    "train_samples": 176,
+    "test_samples": 44,
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_Category",
+        "Reactor_Type"
+    ],
+    "category_column_used": "Substrate_Category",
+    "label_mapping": {
+        "0": "Ammonia",
+        "1": "LCFA",
+        "2": "Other inhibition",
+        "3": "Salinity",
+        "4": "VFA accumulation"
+    },
+    "class_weights": {
+        "Ammonia": 0.6285714285714286,
+        "LCFA": 0.7333333333333333,
+        "Other inhibition": 2.707692307692308,
+        "Salinity": 0.88,
+        "VFA accumulation": 1.8526315789473684
+    },
+    "metrics": {
+        "model": "Logistic Regression Classifier",
+        "features_used": [
+            "Temperature_C",
+            "pH",
+            "HRT_days",
+            "OLR_gVS_L_day",
+            "ISR",
+            "TAN_mg_L",
+            "VFA_mg_L",
+            "Substrate_Category",
+            "Reactor_Type"
+        ],
+        "category_column_used": "Substrate_Category",
+        "train_accuracy": 0.6931818181818182,
+        "test_accuracy": 0.6363636363636364,
+        "train_balanced_accuracy": 0.7370802005012531,
+        "test_balanced_accuracy": 0.6990476190476189,
+        "train_macro_precision": 0.6994493369033176,
+        "test_macro_precision": 0.7209523809523809,
+        "train_macro_recall": 0.7370802005012531,
+        "test_macro_recall": 0.6990476190476189,
+        "train_macro_f1": 0.7131881401951989,
+        "test_macro_f1": 0.680942760942761,
+        "train_weighted_f1": 0.6932943007411665,
+        "test_weighted_f1": 0.6342056932966024,
+        "train_roc_auc_ovr_macro": 0.8983897724589143,
+        "test_roc_auc_ovr_macro": 0.8733214824391295
+    },
+    "top_20_coefficient_importances": [
+        {
+            "Feature": "Substrate_Category_Industrial organic waste",
+            "Mean_Absolute_Coefficient": 0.900440202746269
+        },
+        {
+            "Feature": "Substrate_Category_Co-Digestion",
+            "Mean_Absolute_Coefficient": 0.8617349412329434
+        },
+        {
+            "Feature": "Reactor_Type_CSTR",
+            "Mean_Absolute_Coefficient": 0.8520277174583649
+        },
+        {
+            "Feature": "Substrate_Category_Protein-Rich",
+            "Mean_Absolute_Coefficient": 0.7661782628086613
+        },
+        {
+            "Feature": "VFA_mg_L",
+            "Mean_Absolute_Coefficient": 0.7628749624361231
+        },
+        {
+            "Feature": "Substrate_Category_Agricultural residue",
+            "Mean_Absolute_Coefficient": 0.5397106118790951
+        },
+        {
+            "Feature": "Substrate_Category_Manure/Sludge",
+            "Mean_Absolute_Coefficient": 0.5367576566622274
+        },
+        {
+            "Feature": "Substrate_Category_Lipid-Rich",
+            "Mean_Absolute_Coefficient": 0.5313217724874598
+        },
+        {
+            "Feature": "Reactor_Type_Batch",
+            "Mean_Absolute_Coefficient": 0.49071802044116464
+        },
+        {
+            "Feature": "TAN_mg_L",
+            "Mean_Absolute_Coefficient": 0.46309046939896914
+        },
+        {
+            "Feature": "Temperature_C",
+            "Mean_Absolute_Coefficient": 0.46035336646413033
+        },
+        {
+            "Feature": "Reactor_Type_Thermophilic_Batch",
+            "Mean_Absolute_Coefficient": 0.43390449258254227
+        },
+        {
+            "Feature": "Substrate_Category_Food Waste",
+            "Mean_Absolute_Coefficient": 0.3834019120440198
+        },
+        {
+            "Feature": "HRT_days",
+            "Mean_Absolute_Coefficient": 0.2743083003307949
+        },
+        {
+            "Feature": "ISR",
+            "Mean_Absolute_Coefficient": 0.19576496049781897
+        },
+        {
+            "Feature": "OLR_gVS_L_day",
+            "Mean_Absolute_Coefficient": 0.16455825196282964
+        },
+        {
+            "Feature": "pH",
+            "Mean_Absolute_Coefficient": 0.029692823372786566
+        }
+    ]
+}

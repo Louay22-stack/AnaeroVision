@@ -1,0 +1,132 @@
+{
+    "task": "Task 3C - XGBoost inhibition type classification",
+    "unknown_removed": true,
+    "rows_used": 220,
+    "train_samples": 176,
+    "test_samples": 44,
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_Category",
+        "Reactor_Type"
+    ],
+    "category_column_used": "Substrate_Category",
+    "label_mapping": {
+        "0": "Ammonia",
+        "1": "LCFA",
+        "2": "Other inhibition",
+        "3": "Salinity",
+        "4": "VFA accumulation"
+    },
+    "class_weights": {
+        "Ammonia": 0.6285714285714286,
+        "LCFA": 0.7333333333333333,
+        "Other inhibition": 2.707692307692308,
+        "Salinity": 0.88,
+        "VFA accumulation": 1.8526315789473684
+    },
+    "metrics": {
+        "model": "XGBoost Classifier",
+        "features_used": [
+            "Temperature_C",
+            "pH",
+            "HRT_days",
+            "OLR_gVS_L_day",
+            "ISR",
+            "TAN_mg_L",
+            "VFA_mg_L",
+            "Substrate_Category",
+            "Reactor_Type"
+        ],
+        "category_column_used": "Substrate_Category",
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.7954545454545454,
+        "train_balanced_accuracy": 1.0,
+        "test_balanced_accuracy": 0.8361904761904763,
+        "train_macro_precision": 1.0,
+        "test_macro_precision": 0.7983116883116883,
+        "train_macro_recall": 1.0,
+        "test_macro_recall": 0.8361904761904763,
+        "train_macro_f1": 1.0,
+        "test_macro_f1": 0.8038923395445134,
+        "train_weighted_f1": 1.0,
+        "test_weighted_f1": 0.7936194240542066,
+        "train_roc_auc_ovr_macro": 1.0,
+        "test_roc_auc_ovr_macro": 0.934601917690153
+    },
+    "top_20_feature_importances": [
+        {
+            "Feature": "Substrate_Category_Industrial organic waste",
+            "Importance": 0.13530148565769196
+        },
+        {
+            "Feature": "Reactor_Type_CSTR",
+            "Importance": 0.12210174649953842
+        },
+        {
+            "Feature": "Substrate_Category_Protein-Rich",
+            "Importance": 0.11576243489980698
+        },
+        {
+            "Feature": "Substrate_Category_Co-Digestion",
+            "Importance": 0.08426140993833542
+        },
+        {
+            "Feature": "OLR_gVS_L_day",
+            "Importance": 0.06869775801897049
+        },
+        {
+            "Feature": "Substrate_Category_Food Waste",
+            "Importance": 0.058562830090522766
+        },
+        {
+            "Feature": "VFA_mg_L",
+            "Importance": 0.057764336466789246
+        },
+        {
+            "Feature": "Substrate_Category_Lipid-Rich",
+            "Importance": 0.05273236334323883
+        },
+        {
+            "Feature": "TAN_mg_L",
+            "Importance": 0.049013007432222366
+        },
+        {
+            "Feature": "Reactor_Type_Batch",
+            "Importance": 0.04522731527686119
+        },
+        {
+            "Feature": "Reactor_Type_Thermophilic_Batch",
+            "Importance": 0.03837050870060921
+        },
+        {
+            "Feature": "pH",
+            "Importance": 0.034890927374362946
+        },
+        {
+            "Feature": "HRT_days",
+            "Importance": 0.03383225202560425
+        },
+        {
+            "Feature": "Temperature_C",
+            "Importance": 0.03364170715212822
+        },
+        {
+            "Feature": "Substrate_Category_Manure/Sludge",
+            "Importance": 0.029800355434417725
+        },
+        {
+            "Feature": "ISR",
+            "Importance": 0.024389225989580154
+        },
+        {
+            "Feature": "Substrate_Category_Agricultural residue",
+            "Importance": 0.01565033383667469
+        }
+    ]
+}

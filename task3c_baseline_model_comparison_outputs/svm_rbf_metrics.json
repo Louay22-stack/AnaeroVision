@@ -1,0 +1,17 @@
+{
+    "model": "SVM RBF",
+    "train_accuracy": 0.8465909090909091,
+    "test_accuracy": 0.7272727272727273,
+    "train_balanced_accuracy": 0.8646804511278194,
+    "test_balanced_accuracy": 0.7361904761904762,
+    "train_macro_precision": 0.8395481283422459,
+    "test_macro_precision": 0.7778721278721279,
+    "train_macro_recall": 0.8646804511278194,
+    "test_macro_recall": 0.7361904761904762,
+    "train_macro_f1": 0.8475134770889488,
+    "test_macro_f1": 0.7229928686450424,
+    "train_weighted_f1": 0.846531181083068,
+    "test_weighted_f1": 0.7192447246795072,
+    "train_roc_auc_ovr_macro": 0.9846697672269965,
+    "test_roc_auc_ovr_macro": 0.9380740950226244
+}

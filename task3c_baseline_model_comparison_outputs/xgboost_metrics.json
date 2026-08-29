@@ -1,0 +1,17 @@
+{
+    "model": "XGBoost",
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.7954545454545454,
+    "train_balanced_accuracy": 1.0,
+    "test_balanced_accuracy": 0.8361904761904763,
+    "train_macro_precision": 1.0,
+    "test_macro_precision": 0.7983116883116883,
+    "train_macro_recall": 1.0,
+    "test_macro_recall": 0.8361904761904763,
+    "train_macro_f1": 1.0,
+    "test_macro_f1": 0.8038923395445134,
+    "train_weighted_f1": 1.0,
+    "test_weighted_f1": 0.7936194240542066,
+    "train_roc_auc_ovr_macro": 1.0,
+    "test_roc_auc_ovr_macro": 0.934601917690153
+}

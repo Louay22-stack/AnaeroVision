@@ -1,0 +1,11 @@
+                  precision    recall  f1-score   support
+
+         Ammonia       1.00      0.86      0.92        14
+            LCFA       0.79      0.92      0.85        12
+Other inhibition       0.75      1.00      0.86         3
+        Salinity       1.00      0.90      0.95        10
+VFA accumulation       0.80      0.80      0.80         5
+
+        accuracy                           0.89        44
+       macro avg       0.87      0.89      0.87        44
+    weighted avg       0.90      0.89      0.89        44

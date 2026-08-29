@@ -1,0 +1,22 @@
+{
+    "selected_seed": 42,
+    "train_shape_before_preprocessing": [
+        1295,
+        9
+    ],
+    "test_shape_before_preprocessing": [
+        205,
+        9
+    ],
+    "unique_train_substrates": 239,
+    "unique_test_substrates": 60,
+    "substrate_overlap": 0,
+    "train_target_distribution": {
+        "0": 1072,
+        "1": 223
+    },
+    "test_target_distribution": {
+        "0": 147,
+        "1": 58
+    }
+}

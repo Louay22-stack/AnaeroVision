@@ -1,0 +1,19 @@
+[
+    "Temperature_C",
+    "pH",
+    "HRT_days",
+    "OLR_gVS_L_day",
+    "ISR",
+    "TAN_mg_L",
+    "VFA_mg_L",
+    "Substrate_Category_Agricultural residue",
+    "Substrate_Category_Co-Digestion",
+    "Substrate_Category_Food Waste",
+    "Substrate_Category_Industrial organic waste",
+    "Substrate_Category_Lipid-Rich",
+    "Substrate_Category_Manure/Sludge",
+    "Substrate_Category_Protein-Rich",
+    "Reactor_Type_Batch",
+    "Reactor_Type_CSTR",
+    "Reactor_Type_Thermophilic_Batch"
+]

@@ -1,0 +1,33 @@
+{
+    "original_dataset_shape": [
+        1500,
+        22
+    ],
+    "inhibited_only_shape_before_dropping_missing_type": [
+        281,
+        22
+    ],
+    "inhibited_only_shape_after_dropping_missing_type": [
+        281,
+        23
+    ],
+    "number_of_original_inhibition_type_classes": 12,
+    "number_of_merged_inhibition_type_classes": 8,
+    "min_class_size_for_merge": 10,
+    "classes_kept": [
+        "Ammonia",
+        "Unknown",
+        "LCFA",
+        "Salinity",
+        "VFA_accumulation",
+        "LCFA_inhibition",
+        "VFA accumulation"
+    ],
+    "classes_merged": [
+        "Salinity inhibition",
+        "OLR shock",
+        "Recovered",
+        "Mixed",
+        "Mixed inhibition"
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "task": "Task 3C - RF confidence threshold analysis",
+    "known_rows": 220,
+    "unknown_rows": 61,
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_Category",
+        "Reactor_Type"
+    ],
+    "label_mapping": {
+        "0": "Ammonia",
+        "1": "LCFA",
+        "2": "Other inhibition",
+        "3": "Salinity",
+        "4": "VFA accumulation"
+    },
+    "rf_params": {
+        "n_estimators": 200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt",
+        "max_depth": 16,
+        "class_weight": "balanced",
+        "bootstrap": false,
+        "random_state": 42,
+        "n_jobs": -1
+    },
+    "known_oof_accuracy": 0.9272727272727272,
+    "known_oof_macro_f1": 0.9367905810122792,
+    "suggested_confidence_threshold": 0.45,
+    "threshold_analysis": [
+        {
+            "Threshold": 0.4,
+            "Known_Accepted_Count": 209,
+            "Known_Accepted_Rate": 0.95,
+            "Known_Uncertain_Count": 11,
+            "Known_Uncertain_Rate": 0.05,
+            "Accepted_Accuracy": 0.9425837320574163,
+            "Accepted_Macro_F1": 0.9482843818271961,
+            "Confident_Errors": 12,
+            "Unknown_Uncertain_Rate": 0.04918032786885246,
+            "Unknown_Accepted_Rate": 0.9508196721311475
+        },
+        {
+            "Threshold": 0.45,
+            "Known_Accepted_Count": 201,
+            "Known_Accepted_Rate": 0.9136363636363637,
+            "Known_Uncertain_Count": 19,
+            "Known_Uncertain_Rate": 0.08636363636363636,
+            "Accepted_Accuracy": 0.9502487562189055,
+            "Accepted_Macro_F1": 0.9537504957267642,
+            "Confident_Errors": 10,
+            "Unknown_Uncertain_Rate": 0.2459016393442623,
+            "Unknown_Accepted_Rate": 0.7540983606557377
+        },
+        {
+            "Threshold": 0.5,
+            "Known_Accepted_Count": 192,
+            "Known_Accepted_Rate": 0.8727272727272727,
+            "Known_Uncertain_Count": 28,
+            "Known_Uncertain_Rate": 0.12727272727272726,
+            "Accepted_Accuracy": 0.9635416666666666,
+            "Accepted_Macro_F1": 0.9664510725920461,
+            "Confident_Errors": 7,
+            "Unknown_Uncertain_Rate": 0.5409836065573771,
+            "Unknown_Accepted_Rate": 0.45901639344262296
+        },
+        {
+            "Threshold": 0.55,
+            "Known_Accepted_Count": 187,
+            "Known_Accepted_Rate": 0.85,
+            "Known_Uncertain_Count": 33,
+            "Known_Uncertain_Rate": 0.15,
+            "Accepted_Accuracy": 0.9786096256684492,
+            "Accepted_Macro_F1": 0.9809745346357477,
+            "Confident_Errors": 4,
+            "Unknown_Uncertain_Rate": 0.7213114754098361,
+            "Unknown_Accepted_Rate": 0.2786885245901639
+        },
+        {
+            "Threshold": 0.6,
+            "Known_Accepted_Count": 180,
+            "Known_Accepted_Rate": 0.8181818181818182,
+            "Known_Uncertain_Count": 40,
+            "Known_Uncertain_Rate": 0.18181818181818182,
+            "Accepted_Accuracy": 0.9888888888888889,
+            "Accepted_Macro_F1": 0.9926599326599327,
+            "Confident_Errors": 2,
+            "Unknown_Uncertain_Rate": 0.7868852459016393,
+            "Unknown_Accepted_Rate": 0.21311475409836064
+        },
+        {
+            "Threshold": 0.65,
+            "Known_Accepted_Count": 173,
+            "Known_Accepted_Rate": 0.7863636363636364,
+            "Known_Uncertain_Count": 47,
+            "Known_Uncertain_Rate": 0.21363636363636362,
+            "Accepted_Accuracy": 0.9884393063583815,
+            "Accepted_Macro_F1": 0.9924501424501425,
+            "Confident_Errors": 2,
+            "Unknown_Uncertain_Rate": 0.819672131147541,
+            "Unknown_Accepted_Rate": 0.18032786885245902
+        },
+        {
+            "Threshold": 0.7,
+            "Known_Accepted_Count": 154,
+            "Known_Accepted_Rate": 0.7,
+            "Known_Uncertain_Count": 66,
+            "Known_Uncertain_Rate": 0.3,
+            "Accepted_Accuracy": 0.9935064935064936,
+            "Accepted_Macro_F1": 0.9955891166247153,
+            "Confident_Errors": 1,
+            "Unknown_Uncertain_Rate": 0.9016393442622951,
+            "Unknown_Accepted_Rate": 0.09836065573770492
+        },
+        {
+            "Threshold": 0.75,
+            "Known_Accepted_Count": 138,
+            "Known_Accepted_Rate": 0.6272727272727273,
+            "Known_Uncertain_Count": 82,
+            "Known_Uncertain_Rate": 0.37272727272727274,
+            "Accepted_Accuracy": 0.9927536231884058,
+            "Accepted_Macro_F1": 0.9950395936052592,
+            "Confident_Errors": 1,
+            "Unknown_Uncertain_Rate": 0.9016393442622951,
+            "Unknown_Accepted_Rate": 0.09836065573770492
+        },
+        {
+            "Threshold": 0.8,
+            "Known_Accepted_Count": 115,
+            "Known_Accepted_Rate": 0.5227272727272727,
+            "Known_Uncertain_Count": 105,
+            "Known_Uncertain_Rate": 0.4772727272727273,
+            "Accepted_Accuracy": 0.991304347826087,
+            "Accepted_Macro_F1": 0.9936711763357028,
+            "Confident_Errors": 1,
+            "Unknown_Uncertain_Rate": 0.9016393442622951,
+            "Unknown_Accepted_Rate": 0.09836065573770492
+        },
+        {
+            "Threshold": 0.85,
+            "Known_Accepted_Count": 91,
+            "Known_Accepted_Rate": 0.41363636363636364,
+            "Known_Uncertain_Count": 129,
+            "Known_Uncertain_Rate": 0.5863636363636363,
+            "Accepted_Accuracy": 1.0,
+            "Accepted_Macro_F1": 1.0,
+            "Confident_Errors": 0,
+            "Unknown_Uncertain_Rate": 0.9672131147540983,
+            "Unknown_Accepted_Rate": 0.03278688524590164
+        },
+        {
+            "Threshold": 0.9,
+            "Known_Accepted_Count": 63,
+            "Known_Accepted_Rate": 0.2863636363636364,
+            "Known_Uncertain_Count": 157,
+            "Known_Uncertain_Rate": 0.7136363636363636,
+            "Accepted_Accuracy": 1.0,
+            "Accepted_Macro_F1": 1.0,
+            "Confident_Errors": 0,
+            "Unknown_Uncertain_Rate": 1.0,
+            "Unknown_Accepted_Rate": 0.0
+        }
+    ]
+}

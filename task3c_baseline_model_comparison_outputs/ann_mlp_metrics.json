@@ -1,0 +1,17 @@
+{
+    "model": "ANN MLP",
+    "train_accuracy": 0.9431818181818182,
+    "test_accuracy": 0.75,
+    "train_balanced_accuracy": 0.9567857142857144,
+    "test_balanced_accuracy": 0.7761904761904762,
+    "train_macro_precision": 0.9243151775760472,
+    "test_macro_precision": 0.7705827505827506,
+    "train_macro_recall": 0.9567857142857144,
+    "test_macro_recall": 0.7761904761904762,
+    "train_macro_f1": 0.9376000341979267,
+    "test_macro_f1": 0.7694983277591974,
+    "train_weighted_f1": 0.9442106522744868,
+    "test_weighted_f1": 0.7487078139252051,
+    "train_roc_auc_ovr_macro": 0.980936566969333,
+    "test_roc_auc_ovr_macro": 0.897410579616462
+}

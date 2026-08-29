@@ -1,0 +1,25 @@
+{
+    "model": "ANN / MLPRegressor",
+    "hidden_layer_sizes": [
+        128,
+        64
+    ],
+    "activation": "relu",
+    "solver": "adam",
+    "alpha": 0.001,
+    "batch_size": 32,
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "early_stopping": true,
+    "validation_fraction": 0.15,
+    "n_iter_no_change": 30,
+    "n_iter_actual": 130,
+    "final_loss": 0.005837863809589819,
+    "train_r2": 0.99102802096877,
+    "test_r2": 0.9042701065199156,
+    "train_rmse": 13.101292986945836,
+    "test_rmse": 42.973602010198974,
+    "train_mae": 8.706656655537467,
+    "test_mae": 21.45876627288717,
+    "log_transform_applied": false
+}

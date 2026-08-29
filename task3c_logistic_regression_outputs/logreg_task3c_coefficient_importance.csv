@@ -1,0 +1,18 @@
+Feature,Mean_Absolute_Coefficient
+Substrate_Category_Industrial organic waste,0.900440202746269
+Substrate_Category_Co-Digestion,0.8617349412329434
+Reactor_Type_CSTR,0.8520277174583649
+Substrate_Category_Protein-Rich,0.7661782628086613
+VFA_mg_L,0.7628749624361231
+Substrate_Category_Agricultural residue,0.5397106118790951
+Substrate_Category_Manure/Sludge,0.5367576566622274
+Substrate_Category_Lipid-Rich,0.5313217724874598
+Reactor_Type_Batch,0.49071802044116464
+TAN_mg_L,0.46309046939896914
+Temperature_C,0.46035336646413033
+Reactor_Type_Thermophilic_Batch,0.43390449258254227
+Substrate_Category_Food Waste,0.3834019120440198
+HRT_days,0.2743083003307949
+ISR,0.19576496049781897
+OLR_gVS_L_day,0.16455825196282964
+pH,0.029692823372786566

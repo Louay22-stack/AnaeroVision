@@ -1,0 +1,10 @@
+{
+    "model": "Random Forest Regressor",
+    "train_r2": 0.9939528751876634,
+    "test_r2": 0.8878604940163534,
+    "train_rmse": 10.755844137962141,
+    "test_rmse": 46.51117261296551,
+    "train_mae": 5.25834393625407,
+    "test_mae": 20.724312173914676,
+    "log_transform_applied": false
+}

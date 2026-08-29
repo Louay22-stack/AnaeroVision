@@ -1,0 +1,99 @@
+{
+    "selection_metric": "test_macro_f1",
+    "secondary_metrics": [
+        "test_balanced_accuracy",
+        "test_accuracy",
+        "test_roc_auc_ovr_macro"
+    ],
+    "top_two_baseline_models": [
+        "Random Forest",
+        "XGBoost"
+    ],
+    "comparison_table": [
+        {
+            "model": "Random Forest",
+            "train_accuracy": 1.0,
+            "test_accuracy": 0.8636363636363636,
+            "train_balanced_accuracy": 1.0,
+            "test_balanced_accuracy": 0.9071428571428571,
+            "train_macro_precision": 1.0,
+            "test_macro_precision": 0.8818181818181818,
+            "train_macro_recall": 1.0,
+            "test_macro_recall": 0.9071428571428571,
+            "train_macro_f1": 1.0,
+            "test_macro_f1": 0.8915251415251415,
+            "train_weighted_f1": 1.0,
+            "test_weighted_f1": 0.8617140435322255,
+            "train_roc_auc_ovr_macro": 1.0,
+            "test_roc_auc_ovr_macro": 0.9498981227106228
+        },
+        {
+            "model": "XGBoost",
+            "train_accuracy": 1.0,
+            "test_accuracy": 0.7954545454545454,
+            "train_balanced_accuracy": 1.0,
+            "test_balanced_accuracy": 0.8361904761904763,
+            "train_macro_precision": 1.0,
+            "test_macro_precision": 0.7983116883116883,
+            "train_macro_recall": 1.0,
+            "test_macro_recall": 0.8361904761904763,
+            "train_macro_f1": 1.0,
+            "test_macro_f1": 0.8038923395445134,
+            "train_weighted_f1": 1.0,
+            "test_weighted_f1": 0.7936194240542066,
+            "train_roc_auc_ovr_macro": 1.0,
+            "test_roc_auc_ovr_macro": 0.934601917690153
+        },
+        {
+            "model": "ANN MLP",
+            "train_accuracy": 0.9431818181818182,
+            "test_accuracy": 0.75,
+            "train_balanced_accuracy": 0.9567857142857144,
+            "test_balanced_accuracy": 0.7761904761904762,
+            "train_macro_precision": 0.9243151775760472,
+            "test_macro_precision": 0.7705827505827506,
+            "train_macro_recall": 0.9567857142857144,
+            "test_macro_recall": 0.7761904761904762,
+            "train_macro_f1": 0.9376000341979267,
+            "test_macro_f1": 0.7694983277591974,
+            "train_weighted_f1": 0.9442106522744868,
+            "test_weighted_f1": 0.7487078139252051,
+            "train_roc_auc_ovr_macro": 0.980936566969333,
+            "test_roc_auc_ovr_macro": 0.897410579616462
+        },
+        {
+            "model": "SVM RBF",
+            "train_accuracy": 0.8465909090909091,
+            "test_accuracy": 0.7272727272727273,
+            "train_balanced_accuracy": 0.8646804511278194,
+            "test_balanced_accuracy": 0.7361904761904762,
+            "train_macro_precision": 0.8395481283422459,
+            "test_macro_precision": 0.7778721278721279,
+            "train_macro_recall": 0.8646804511278194,
+            "test_macro_recall": 0.7361904761904762,
+            "train_macro_f1": 0.8475134770889488,
+            "test_macro_f1": 0.7229928686450424,
+            "train_weighted_f1": 0.846531181083068,
+            "test_weighted_f1": 0.7192447246795072,
+            "train_roc_auc_ovr_macro": 0.9846697672269965,
+            "test_roc_auc_ovr_macro": 0.9380740950226244
+        },
+        {
+            "model": "Logistic Regression",
+            "train_accuracy": 0.6931818181818182,
+            "test_accuracy": 0.6363636363636364,
+            "train_balanced_accuracy": 0.7370802005012531,
+            "test_balanced_accuracy": 0.6990476190476189,
+            "train_macro_precision": 0.6994493369033176,
+            "test_macro_precision": 0.7209523809523809,
+            "train_macro_recall": 0.7370802005012531,
+            "test_macro_recall": 0.6990476190476189,
+            "train_macro_f1": 0.7131881401951989,
+            "test_macro_f1": 0.680942760942761,
+            "train_weighted_f1": 0.6932943007411665,
+            "test_weighted_f1": 0.6342056932966024,
+            "train_roc_auc_ovr_macro": 0.8983897724589143,
+            "test_roc_auc_ovr_macro": 0.8733214824391295
+        }
+    ]
+}

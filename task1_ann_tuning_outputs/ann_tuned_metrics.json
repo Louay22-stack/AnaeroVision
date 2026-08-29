@@ -1,0 +1,22 @@
+{
+    "model": "Tuned ANN / MLPRegressor",
+    "best_cv_r2": 0.9759536560158949,
+    "best_params": {
+        "regressor__learning_rate_init": 0.001,
+        "regressor__hidden_layer_sizes": [
+            128,
+            64,
+            32
+        ],
+        "regressor__batch_size": 64,
+        "regressor__alpha": 0.001,
+        "regressor__activation": "relu"
+    },
+    "train_r2": 0.992411034121988,
+    "test_r2": 0.9092232867999407,
+    "train_rmse": 12.04928658902782,
+    "test_rmse": 41.84708359429498,
+    "train_mae": 7.985801976556042,
+    "test_mae": 20.666540402795345,
+    "log_transform_applied": false
+}

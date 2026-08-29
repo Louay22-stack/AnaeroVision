@@ -1,0 +1,146 @@
+{
+    "task": "Task 3C - Random Forest hyperparameter tuning",
+    "rows_used": 220,
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_Category",
+        "Reactor_Type"
+    ],
+    "category_column_used": "Substrate_Category",
+    "label_mapping": {
+        "0": "Ammonia",
+        "1": "LCFA",
+        "2": "Other inhibition",
+        "3": "Salinity",
+        "4": "VFA accumulation"
+    },
+    "baseline_summary": {
+        "train_accuracy_mean": 1.0,
+        "train_accuracy_std": 0.0,
+        "test_accuracy_mean": 0.9272727272727274,
+        "test_accuracy_std": 0.01700753357624521,
+        "train_balanced_accuracy_mean": 1.0,
+        "train_balanced_accuracy_std": 0.0,
+        "test_balanced_accuracy_mean": 0.9198095238095239,
+        "test_balanced_accuracy_std": 0.024201722170314018,
+        "train_macro_precision_mean": 1.0,
+        "train_macro_precision_std": 0.0,
+        "test_macro_precision_mean": 0.9455551115551115,
+        "test_macro_precision_std": 0.019662499351195434,
+        "train_macro_recall_mean": 1.0,
+        "train_macro_recall_std": 0.0,
+        "test_macro_recall_mean": 0.9198095238095239,
+        "test_macro_recall_std": 0.024201722170314018,
+        "train_macro_f1_mean": 1.0,
+        "train_macro_f1_std": 0.0,
+        "test_macro_f1_mean": 0.9259549088592568,
+        "test_macro_f1_std": 0.022620109540747602,
+        "train_weighted_f1_mean": 1.0,
+        "train_weighted_f1_std": 0.0,
+        "test_weighted_f1_mean": 0.9271632822601203,
+        "test_weighted_f1_std": 0.017410051873708685
+    },
+    "best_params": {
+        "model__n_estimators": 200,
+        "model__min_samples_split": 2,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "sqrt",
+        "model__max_depth": 16,
+        "model__class_weight": "balanced",
+        "model__bootstrap": false
+    },
+    "best_cv_macro_f1_from_search": 0.9356003745047223,
+    "tuned_summary": {
+        "train_accuracy_mean": 1.0,
+        "train_accuracy_std": 0.0,
+        "test_accuracy_mean": 0.9272727272727274,
+        "test_accuracy_std": 0.026504326794751388,
+        "train_balanced_accuracy_mean": 1.0,
+        "train_balanced_accuracy_std": 0.0,
+        "test_balanced_accuracy_mean": 0.9403809523809524,
+        "test_balanced_accuracy_std": 0.020696270217288714,
+        "train_macro_precision_mean": 1.0,
+        "train_macro_precision_std": 0.0,
+        "test_macro_precision_mean": 0.9386320346320346,
+        "test_macro_precision_std": 0.018379722763935943,
+        "train_macro_recall_mean": 1.0,
+        "train_macro_recall_std": 0.0,
+        "test_macro_recall_mean": 0.9403809523809524,
+        "test_macro_recall_std": 0.020696270217288714,
+        "train_macro_f1_mean": 1.0,
+        "train_macro_f1_std": 0.0,
+        "test_macro_f1_mean": 0.9356003745047223,
+        "test_macro_f1_std": 0.020538857558262867,
+        "train_weighted_f1_mean": 1.0,
+        "train_weighted_f1_std": 0.0,
+        "test_weighted_f1_mean": 0.926585743637127,
+        "test_weighted_f1_std": 0.027090965811077578
+    },
+    "baseline_vs_tuned_comparison": [
+        {
+            "Metric": "accuracy",
+            "Baseline_CV_Mean": 0.9272727272727274,
+            "Baseline_CV_Std": 0.01700753357624521,
+            "Tuned_CV_Mean": 0.9272727272727274,
+            "Tuned_CV_Std": 0.026504326794751388,
+            "Difference_Tuned_minus_Baseline": 0.0
+        },
+        {
+            "Metric": "balanced_accuracy",
+            "Baseline_CV_Mean": 0.9198095238095239,
+            "Baseline_CV_Std": 0.024201722170314018,
+            "Tuned_CV_Mean": 0.9403809523809524,
+            "Tuned_CV_Std": 0.020696270217288714,
+            "Difference_Tuned_minus_Baseline": 0.020571428571428574
+        },
+        {
+            "Metric": "macro_precision",
+            "Baseline_CV_Mean": 0.9455551115551115,
+            "Baseline_CV_Std": 0.019662499351195434,
+            "Tuned_CV_Mean": 0.9386320346320346,
+            "Tuned_CV_Std": 0.018379722763935943,
+            "Difference_Tuned_minus_Baseline": -0.006923076923076921
+        },
+        {
+            "Metric": "macro_recall",
+            "Baseline_CV_Mean": 0.9198095238095239,
+            "Baseline_CV_Std": 0.024201722170314018,
+            "Tuned_CV_Mean": 0.9403809523809524,
+            "Tuned_CV_Std": 0.020696270217288714,
+            "Difference_Tuned_minus_Baseline": 0.020571428571428574
+        },
+        {
+            "Metric": "macro_f1",
+            "Baseline_CV_Mean": 0.9259549088592568,
+            "Baseline_CV_Std": 0.022620109540747602,
+            "Tuned_CV_Mean": 0.9356003745047223,
+            "Tuned_CV_Std": 0.020538857558262867,
+            "Difference_Tuned_minus_Baseline": 0.009645465645465534
+        },
+        {
+            "Metric": "weighted_f1",
+            "Baseline_CV_Mean": 0.9271632822601203,
+            "Baseline_CV_Std": 0.017410051873708685,
+            "Tuned_CV_Mean": 0.926585743637127,
+            "Tuned_CV_Std": 0.027090965811077578,
+            "Difference_Tuned_minus_Baseline": -0.0005775386229933677
+        }
+    ],
+    "tuned_overall_out_of_fold_metrics": {
+        "overall_accuracy": 0.9272727272727272,
+        "overall_balanced_accuracy": 0.9417142857142856,
+        "overall_macro_precision": 0.9371212121212121,
+        "overall_macro_recall": 0.9417142857142856,
+        "overall_macro_f1": 0.9367905810122792,
+        "overall_weighted_f1": 0.9266108694764356,
+        "overall_roc_auc_ovr_macro": 0.9773817176870747
+    },
+    "final_decision": "tuned_random_forest",
+    "note": "If tuned RF improves or maintains macro F1 compared with baseline RF, select tuned RF. If it performs worse, retain baseline RF."
+}

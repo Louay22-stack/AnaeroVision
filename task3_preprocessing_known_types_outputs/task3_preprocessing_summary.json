@@ -1,0 +1,91 @@
+{
+    "task": "Task 3 - Known inhibition type classification",
+    "target": "Inhibition_Type_Final",
+    "unknown_removed": true,
+    "rows_before_removing_unknown": 281,
+    "rows_after_removing_unknown": 220,
+    "known_classes": [
+        "Ammonia",
+        "LCFA",
+        "Other inhibition",
+        "Salinity",
+        "VFA accumulation"
+    ],
+    "label_mapping": {
+        "0": "Ammonia",
+        "1": "LCFA",
+        "2": "Other inhibition",
+        "3": "Salinity",
+        "4": "VFA accumulation"
+    },
+    "train_shape": [
+        176,
+        15
+    ],
+    "test_shape": [
+        44,
+        15
+    ],
+    "train_target_distribution": {
+        "Ammonia": 56,
+        "LCFA": 48,
+        "Salinity": 40,
+        "VFA accumulation": 19,
+        "Other inhibition": 13
+    },
+    "test_target_distribution": {
+        "Ammonia": 14,
+        "LCFA": 12,
+        "Salinity": 10,
+        "VFA accumulation": 5,
+        "Other inhibition": 3
+    },
+    "numeric_scaled_columns": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_TE_Ammonia",
+        "Substrate_TE_LCFA",
+        "Substrate_TE_Other_inhibition",
+        "Substrate_TE_Salinity",
+        "Substrate_TE_VFA_accumulation"
+    ],
+    "imputed_columns": [
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR"
+    ],
+    "imputation_values": {
+        "HRT_days": 22.09705381547668,
+        "OLR_gVS_L_day": 3.214863602543112,
+        "ISR": 2.0
+    },
+    "class_weights_named": {
+        "Ammonia": 0.6285714285714286,
+        "LCFA": 0.7333333333333333,
+        "Other inhibition": 2.707692307692308,
+        "Salinity": 0.88,
+        "VFA accumulation": 1.8526315789473684
+    },
+    "feature_names": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_TE_Ammonia",
+        "Substrate_TE_LCFA",
+        "Substrate_TE_Other_inhibition",
+        "Substrate_TE_Salinity",
+        "Substrate_TE_VFA_accumulation",
+        "Reactor_Type_Batch",
+        "Reactor_Type_CSTR",
+        "Reactor_Type_Thermophilic_Batch"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "task": "Task 3B - Mechanistic inhibition type classification",
+    "unknown_removed": true,
+    "rows_used": 220,
+    "train_samples": 176,
+    "test_samples": 44,
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L"
+    ],
+    "label_mapping": {
+        "0": "Ammonia",
+        "1": "LCFA",
+        "2": "Other inhibition",
+        "3": "Salinity",
+        "4": "VFA accumulation"
+    },
+    "class_weights": {
+        "Ammonia": 0.6285714285714286,
+        "LCFA": 0.7333333333333333,
+        "Other inhibition": 2.707692307692308,
+        "Salinity": 0.88,
+        "VFA accumulation": 1.8526315789473684
+    },
+    "metrics": {
+        "model": "Mechanistic Random Forest Classifier",
+        "features_used": [
+            "Temperature_C",
+            "pH",
+            "HRT_days",
+            "OLR_gVS_L_day",
+            "ISR",
+            "TAN_mg_L",
+            "VFA_mg_L"
+        ],
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.8181818181818182,
+        "train_balanced_accuracy": 1.0,
+        "test_balanced_accuracy": 0.8271428571428571,
+        "train_macro_precision": 1.0,
+        "test_macro_precision": 0.8,
+        "train_macro_recall": 1.0,
+        "test_macro_recall": 0.8271428571428571,
+        "train_macro_f1": 1.0,
+        "test_macro_f1": 0.8058108558108559,
+        "train_weighted_f1": 1.0,
+        "test_weighted_f1": 0.8145869282232918,
+        "train_roc_auc_ovr_macro": 1.0,
+        "test_roc_auc_ovr_macro": 0.9381816620879121
+    }
+}

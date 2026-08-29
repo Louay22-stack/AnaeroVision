@@ -1,0 +1,7 @@
+Rank,Model,Model_Type,Train_R2,Test_R2,Train_RMSE_mL_CH4_gVS,Test_RMSE_mL_CH4_gVS,Train_MAE_mL_CH4_gVS,Test_MAE_mL_CH4_gVS,Comment
+1,Tuned ANN / MLPRegressor,Tuned,0.9924,0.9092,12.0493,41.8471,7.9858,20.6665,Best final model
+2,ANN / MLPRegressor,Baseline,0.991,0.9043,13.1013,42.9736,8.7067,21.4588,Best baseline test R2 and RMSE
+3,XGBoost,Baseline,0.997,0.8979,7.5383,44.3719,5.344,21.3583,Competitive baseline; some overfitting
+4,Tuned XGBoost,Tuned,0.9983,0.8971,5.6791,44.5553,3.9861,21.5418,"Training improved, but test performance did not improve"
+5,Random Forest,Baseline,0.994,0.8879,10.7558,46.5112,5.2583,20.7243,Strong baseline; lowest baseline test MAE
+6,SVR,Baseline,0.9507,0.8707,30.7132,49.9422,18.8897,30.9455,Weakest baseline model

@@ -1,0 +1,22 @@
+{
+    "model": "Tuned XGBoost Regressor",
+    "best_cv_r2": 0.9822483026539365,
+    "best_params": {
+        "subsample": 0.9,
+        "reg_lambda": 0.5,
+        "reg_alpha": 0.05,
+        "n_estimators": 1000,
+        "min_child_weight": 2,
+        "max_depth": 3,
+        "learning_rate": 0.07,
+        "gamma": 0.05,
+        "colsample_bytree": 1.0
+    },
+    "train_r2": 0.998314149814118,
+    "test_r2": 0.8970935741549048,
+    "train_rmse": 5.679100092856728,
+    "test_rmse": 44.555284058224636,
+    "train_mae": 3.9860685484897975,
+    "test_mae": 21.54177207780952,
+    "log_transform_applied": false
+}

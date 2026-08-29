@@ -1,0 +1,29 @@
+{
+    "model": "Logistic Regression Classifier",
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_Category",
+        "Reactor_Type"
+    ],
+    "category_column_used": "Substrate_Category",
+    "train_accuracy": 0.6931818181818182,
+    "test_accuracy": 0.6363636363636364,
+    "train_balanced_accuracy": 0.7370802005012531,
+    "test_balanced_accuracy": 0.6990476190476189,
+    "train_macro_precision": 0.6994493369033176,
+    "test_macro_precision": 0.7209523809523809,
+    "train_macro_recall": 0.7370802005012531,
+    "test_macro_recall": 0.6990476190476189,
+    "train_macro_f1": 0.7131881401951989,
+    "test_macro_f1": 0.680942760942761,
+    "train_weighted_f1": 0.6932943007411665,
+    "test_weighted_f1": 0.6342056932966024,
+    "train_roc_auc_ovr_macro": 0.8983897724589143,
+    "test_roc_auc_ovr_macro": 0.8733214824391295
+}

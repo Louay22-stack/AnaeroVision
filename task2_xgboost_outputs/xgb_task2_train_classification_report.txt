@@ -1,0 +1,8 @@
+               precision    recall  f1-score   support
+
+No inhibition       1.00      1.00      1.00       975
+   Inhibition       1.00      1.00      1.00       225
+
+     accuracy                           1.00      1200
+    macro avg       1.00      1.00      1.00      1200
+ weighted avg       1.00      1.00      1.00      1200

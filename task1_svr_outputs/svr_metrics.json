@@ -1,0 +1,14 @@
+{
+    "model": "SVR",
+    "kernel": "rbf",
+    "C": 100,
+    "gamma": "scale",
+    "epsilon": 0.1,
+    "train_r2": 0.9506929116579036,
+    "test_r2": 0.8707054433425865,
+    "train_rmse": 30.713174891821943,
+    "test_rmse": 49.94224838098228,
+    "train_mae": 18.889740871340624,
+    "test_mae": 30.945457926833612,
+    "log_transform_applied": false
+}

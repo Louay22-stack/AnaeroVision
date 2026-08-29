@@ -1,0 +1,14 @@
+{
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.9766666666666667,
+    "train_precision_class_1": 1.0,
+    "test_precision_class_1": 1.0,
+    "train_recall_class_1": 1.0,
+    "test_recall_class_1": 0.875,
+    "train_f1_class_1": 1.0,
+    "test_f1_class_1": 0.9333333333333333,
+    "train_roc_auc": 1.0,
+    "test_roc_auc": 0.9999268149882904,
+    "train_pr_auc": 1.0,
+    "test_pr_auc": 0.9996867167919801
+}

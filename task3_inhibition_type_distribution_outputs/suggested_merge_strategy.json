@@ -1,0 +1,19 @@
+{
+    "min_class_size": 10,
+    "classes_kept": [
+        "Ammonia",
+        "Unknown",
+        "LCFA",
+        "Salinity",
+        "VFA_accumulation",
+        "LCFA_inhibition",
+        "VFA accumulation"
+    ],
+    "classes_merged_into_other_inhibition": [
+        "Salinity inhibition",
+        "OLR shock",
+        "Recovered",
+        "Mixed",
+        "Mixed inhibition"
+    ]
+}

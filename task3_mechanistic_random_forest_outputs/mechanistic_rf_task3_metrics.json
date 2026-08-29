@@ -1,0 +1,26 @@
+{
+    "model": "Mechanistic Random Forest Classifier",
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L"
+    ],
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.8181818181818182,
+    "train_balanced_accuracy": 1.0,
+    "test_balanced_accuracy": 0.8271428571428571,
+    "train_macro_precision": 1.0,
+    "test_macro_precision": 0.8,
+    "train_macro_recall": 1.0,
+    "test_macro_recall": 0.8271428571428571,
+    "train_macro_f1": 1.0,
+    "test_macro_f1": 0.8058108558108559,
+    "train_weighted_f1": 1.0,
+    "test_weighted_f1": 0.8145869282232918,
+    "train_roc_auc_ovr_macro": 1.0,
+    "test_roc_auc_ovr_macro": 0.9381816620879121
+}

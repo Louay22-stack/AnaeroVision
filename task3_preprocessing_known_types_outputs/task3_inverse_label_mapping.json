@@ -1,0 +1,7 @@
+{
+    "Ammonia": 0,
+    "LCFA": 1,
+    "Other inhibition": 2,
+    "Salinity": 3,
+    "VFA accumulation": 4
+}

@@ -1,0 +1,18 @@
+Feature,Importance
+VFA_mg_L,0.17862394989712338
+TAN_mg_L,0.17636783432699232
+pH,0.134203176349034
+HRT_days,0.09861563191879293
+Temperature_C,0.0697092293340421
+Reactor_Type_CSTR,0.06273782948597226
+OLR_gVS_L_day,0.05967622823917776
+Substrate_Category_Protein-Rich,0.03397767307598418
+Substrate_Category_Food Waste,0.03261580281485497
+Substrate_Category_Industrial organic waste,0.03117247148653447
+Substrate_Category_Co-Digestion,0.026669648955318356
+Reactor_Type_Batch,0.021124234342480182
+Substrate_Category_Manure/Sludge,0.01989292529612645
+Substrate_Category_Agricultural residue,0.016947303453864814
+Substrate_Category_Lipid-Rich,0.013506982263511208
+ISR,0.013061163471194313
+Reactor_Type_Thermophilic_Batch,0.011097915288996386

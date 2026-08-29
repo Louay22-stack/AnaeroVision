@@ -1,0 +1,15 @@
+{
+    "train_class_distribution": {
+        "0": 975,
+        "1": 225
+    },
+    "test_class_distribution": {
+        "0": 244,
+        "1": 56
+    },
+    "class_weight_dict": {
+        "0": 0.6153846153846154,
+        "1": 2.6666666666666665
+    },
+    "scale_pos_weight_for_xgboost": 4.333333333333333
+}

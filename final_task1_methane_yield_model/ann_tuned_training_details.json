@@ -1,0 +1,9 @@
+{
+    "n_iter": 192,
+    "final_loss": 0.004278175012457743,
+    "hidden_layer_sizes": "(128, 64, 32)",
+    "activation": "relu",
+    "alpha": 0.001,
+    "learning_rate_init": 0.001,
+    "batch_size": "64"
+}

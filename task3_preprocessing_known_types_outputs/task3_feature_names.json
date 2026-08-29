@@ -1,0 +1,17 @@
+[
+    "Temperature_C",
+    "pH",
+    "HRT_days",
+    "OLR_gVS_L_day",
+    "ISR",
+    "TAN_mg_L",
+    "VFA_mg_L",
+    "Substrate_TE_Ammonia",
+    "Substrate_TE_LCFA",
+    "Substrate_TE_Other_inhibition",
+    "Substrate_TE_Salinity",
+    "Substrate_TE_VFA_accumulation",
+    "Reactor_Type_Batch",
+    "Reactor_Type_CSTR",
+    "Reactor_Type_Thermophilic_Batch"
+]

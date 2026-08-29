@@ -1,0 +1,14 @@
+{
+    "Batch": "Batch",
+    "Batch (BMP)": "Batch",
+    "Batch serum bottles": "Batch",
+    "Thermophilic Batch": "Thermophilic_Batch",
+    "Thermophilic AD": "Thermophilic_Batch",
+    "CSTR": "CSTR",
+    "CSTR (fed-batch)": "CSTR",
+    "CSTR (mesophilic)": "CSTR",
+    "Two-stage CSTR": "CSTR",
+    "Serial CSTR": "CSTR",
+    "Horizontal flow reactor": "Other",
+    "Horizontal flow": "Other"
+}

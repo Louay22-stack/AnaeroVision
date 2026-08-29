@@ -1,0 +1,43 @@
+{
+    "task": "Task 3 - Inhibition type classification",
+    "final_model": "Tuned Random Forest",
+    "target": "Inhibition_Type_Final",
+    "training_strategy": "Known inhibition types only; Unknown removed from model training",
+    "known_classes": [
+        "Ammonia",
+        "LCFA",
+        "Other inhibition",
+        "Salinity",
+        "VFA accumulation"
+    ],
+    "features_used": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate_Category",
+        "Reactor_Type"
+    ],
+    "confidence_logic": {
+        "high_confidence_threshold": 0.6,
+        "moderate_confidence_threshold": 0.45,
+        "decision_logic": {
+            "confidence >= 0.60": "Likely inhibition type - high confidence",
+            "0.45 <= confidence < 0.60": "Possible inhibition type - moderate confidence",
+            "confidence < 0.45": "Inhibition type uncertain / unknown"
+        }
+    },
+    "final_cv_performance": {
+        "overall_accuracy": 0.9273,
+        "overall_balanced_accuracy": 0.9417,
+        "overall_macro_precision": 0.9371,
+        "overall_macro_recall": 0.9417,
+        "overall_macro_f1": 0.9368,
+        "overall_weighted_f1": 0.9266,
+        "overall_roc_auc_ovr_macro": 0.9774
+    },
+    "note": "The model predicts among known inhibition mechanisms. Low-confidence outputs are returned as uncertain/unknown in the final interface."
+}

@@ -1,0 +1,9 @@
+{
+    "model__n_estimators": 200,
+    "model__min_samples_split": 2,
+    "model__min_samples_leaf": 2,
+    "model__max_features": "sqrt",
+    "model__max_depth": 16,
+    "model__class_weight": "balanced",
+    "model__bootstrap": false
+}

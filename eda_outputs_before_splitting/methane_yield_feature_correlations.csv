@@ -1,0 +1,8 @@
+Feature,Pearson_correlation_with_methane_yield,Primary_predictor_abs_corr_gt_0_5
+OLR_gVS_L_day,0.36652866300432474,False
+TAN_mg_L,-0.34683246203201157,False
+pH,-0.29907910784089853,False
+VFA_mg_L,0.290591717476986,False
+Temperature_C,0.16883379512526595,False
+ISR,-0.1688150071503227,False
+HRT_days,0.09633356772119453,False

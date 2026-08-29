@@ -1,0 +1,13 @@
+Feature,Importance
+Substrate,0.6130013
+Reactor_Type_Thermophilic_Batch,0.1673554
+VFA_mg_L,0.05763901
+TAN_mg_L,0.05677974
+Reactor_Type_Batch,0.02269092
+ISR,0.021897346
+Reactor_Type_CSTR,0.01739251
+pH,0.01689227
+HRT_days,0.009820629
+OLR_gVS_L_day,0.008838649
+Temperature_C,0.007692244
+Reactor_Type_Other,0.0

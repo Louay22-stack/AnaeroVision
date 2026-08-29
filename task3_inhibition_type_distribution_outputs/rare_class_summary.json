@@ -1,0 +1,24 @@
+{
+    "classes_with_less_than_5_samples": [
+        "Recovered",
+        "Mixed",
+        "Mixed inhibition"
+    ],
+    "classes_with_less_than_10_samples": [
+        "Salinity inhibition",
+        "OLR shock",
+        "Recovered",
+        "Mixed",
+        "Mixed inhibition"
+    ],
+    "classes_with_less_than_20_samples": [
+        "VFA_accumulation",
+        "LCFA_inhibition",
+        "VFA accumulation",
+        "Salinity inhibition",
+        "OLR shock",
+        "Recovered",
+        "Mixed",
+        "Mixed inhibition"
+    ]
+}

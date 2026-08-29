@@ -1,0 +1,73 @@
+{
+    "target": "Methane_Yield_mL_CH4_gVS",
+    "original_dataset_shape": [
+        1500,
+        22
+    ],
+    "task1_dataset_shape_after_drops": [
+        1500,
+        10
+    ],
+    "train_shape": [
+        1200,
+        12
+    ],
+    "test_shape": [
+        300,
+        12
+    ],
+    "excluded_from_model_input": [
+        "TAN_was_missing",
+        "VFA_was_missing"
+    ],
+    "dropped_columns": [
+        "Experiment_ID",
+        "Reference",
+        "DOI",
+        "Source",
+        "Substrate_Category",
+        "CH4_percent",
+        "Inhibition_Status",
+        "Original_Inhibition_Label",
+        "Inhibition_Type",
+        "Inhibition_Label_Numeric",
+        "TAN_was_missing",
+        "VFA_was_missing"
+    ],
+    "numeric_scaled_columns": [
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Substrate"
+    ],
+    "imputed_columns": [
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR"
+    ],
+    "imputation_values": {
+        "HRT_days": 21.25118491199019,
+        "OLR_gVS_L_day": 2.46,
+        "ISR": 2.0
+    },
+    "target_skewness_train": 0.21248598233346275,
+    "log_transform_applied": false,
+    "final_feature_names": [
+        "Substrate",
+        "Temperature_C",
+        "pH",
+        "HRT_days",
+        "OLR_gVS_L_day",
+        "ISR",
+        "TAN_mg_L",
+        "VFA_mg_L",
+        "Reactor_Type_Batch",
+        "Reactor_Type_CSTR",
+        "Reactor_Type_Other",
+        "Reactor_Type_Thermophilic_Batch"
+    ]
+}
